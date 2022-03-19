@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="cal_overlap_ratio" pkg="cal_overlap_ratio" type="gen_overlap_clouds" output="screen">
+        <param name="pcd_path" type="string" value="/home/czy/czy_part-time_job/ws_319/src/cal_overlap_ratio/data/src_full.pcd"/>
+        <param name="save_path" type="string" value="/home/czy/czy_part-time_job/ws_319/src/cal_overlap_ratio/data/src_0.75.pcd"/>
+        <param name="ratio" type="double" value="0.80" />
+    </node>
+
+</launch>

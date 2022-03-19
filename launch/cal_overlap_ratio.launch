@@ -1,0 +1,10 @@
+<launch>
+    
+    <node name="cal_overlap_ratio" pkg="cal_overlap_ratio" type="cal_overlap_ratio" output="screen">
+        <param name="src_path" type="string" value="/home/czy/czy_part-time_job/ws_319/src/cal_overlap_ratio/data/src_full.pcd"/>
+        <param name="tgt_path" type="string" value="/home/czy/czy_part-time_job/ws_319/src/cal_overlap_ratio/data/tgt_full.pcd"/>
+        <param name="has_Rt" type="bool" value="False"/>
+        <param name="Rt_path" type="string" value="*.txt"/>
+    </node>
+
+</launch>
